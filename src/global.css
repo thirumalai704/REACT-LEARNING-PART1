@@ -1,0 +1,68 @@
+/* h1{
+    color: rgb(34, 85, 215);
+}
+
+p{
+    color: rgb(255, 119, 0);
+    font-size: larger;
+} */
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+    display: flex;
+    gap: 50%;
+    align-items: center;
+    background-color: rgb(241, 68, 68);
+    color: white;
+    padding: 20px;
+}
+
+.menu ul{
+    
+    display: flex;
+    gap: 50%;  
+    font-size: 20px;
+    list-style: none;
+}
+
+.logo{
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+
+.user-com{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: rgb(254, 255, 251);
+    
+}
+
+.user-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.userName {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(207, 15, 15);
+    text-transform: capitalize;
+}
+
+.user{
+    border: 2px solid rgb(230, 155, 86);
+    padding: 4px;
+    border-radius: 5%;
+    box-shadow: 2px 4px 8px 0.5px lightslategray  ;
+}
